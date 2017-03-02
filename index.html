@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>phpForm - Script en PHP para enviar formularios por correo electrónico</title>
+    <meta name="author" content="Fernando Magrosoto V.">
+    <meta name="description" content="Script PHP para recibir un formulario de contacto
+    y enviarlo por correo electrónico a un destinatario específico.">
+    <meta name="keywords" content="php, fmagrosoto, repositorios git, github">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form>
+                    <legend>Formulario de contacto</legend>
+                    <p class="help-block">Script PHP para recibir un formulario de
+                        contacto y enviarlo por correo electrónico a un destinatario
+                        específico.</p>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="comentaros">Comentarios</label>
+                        <textarea id="comentarios"
+                        name="comentarios" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                    Enviar formulario</button>
+                </form>
+            </div>
+        </div>
+
+        <footer class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <p>&copy;2017 - <strong>Fernando Magrosoto V.</strong></p>
+                <p>Copyleft, Derechos Reservados según licencia MIT.</p>
+                <p>Sígueme en <a target="_blank" href="https://twitter.com/fmagrosoto">Twiiter</a></p>
+                <p>Repositorio en <a target="_blank" href="https://github.com/fmagrosoto/formPHP">
+                GitHub</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -3,7 +3,7 @@
 ![Packagist](https://img.shields.io/badge/PHP-project-green.svg)
 ![Packagist](https://img.shields.io/badge/HTML-5-yellowgreen.svg)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](LICENSE)
-![Packagist](https://img.shields.io/badge/Versi%C3%B3n-Alpha-red.svg)
+![Packagist](https://img.shields.io/badge/Versi%C3%B3n-Estable%201.0-orange.svg)
 
 Script PHP para recibir un formulario de contacto y enviarlo por correo electrónico a un destinatario específico.
 

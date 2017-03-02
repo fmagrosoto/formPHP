@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // Preparamos la salida del correo:
-    $para = 'correo@destinatario.com'; // Correo a quie le va a llegar el formulario.
+    $para = 'correo@destinatario.com'; // Correo a quien le va a llegar el formulario.
     $subject = "Formulario de contacto para " . $empresa; // El ASUNTO del correo.
 
     // Para enviar un correo en formato HTML, debe establecerse la cabecera Content-type

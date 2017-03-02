@@ -90,7 +90,7 @@ function enviar(s) {
     // de AJAX usando $.post de jQUERY.
     // Hay muchas formas de usar AJAX y de usar los métodos de jQUERY, esta es una de ellas.
     // Si NO quisiéramos usar AJAX, entonces simplemente quitamos esta parte.
-    $.post('/php/formulario.php', {
+    $.post('php/formulario.php', {
         'nombre':       nombre,
         'correo':       correo,
         'telefono':     tel,

@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(235,235,235);
+    padding-top: 5em;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    margin-top: 5em;
+    padding-top: 1em;
+    border-top: 1px lightgray solid;
+}
+
+footer p {
+    line-height: .75em;
+    color: rgb(100,100,100);
+}

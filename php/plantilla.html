@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de contacto</title>
+	<style>
+		body {
+			font-size: 14px;
+			font-family: sans-serif;
+			color: rgb(51,51,51);
+			background: rgb(245,245,245);
+		}
+		#header {
+			width: 600px;
+			margin: auto;
+			border: 1px rgb(200,200,200) solid;
+			padding: 10px;
+			background: white;
+			text-align: center;
+			border-radius: 7px;
+		}
+
+		.titulo {
+			width: 600px;
+			margin: 15px auto;
+		}
+		.titulo h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			text-align: center;
+		}
+
+		.cuerpo {
+			width: 600px;
+			margin: auto;
+		}
+		.cuerpo .detalles {
+			font-size: 12px;
+		}
+		.cuerpo .detalles th {
+			background: rgb(225,225,225);
+			padding: 5px;
+			text-align: right;
+			border: 1px rgb(200,200,200) solid;
+		}
+		.cuerpo .detalles td {
+			background: rgb(255,255,255);
+			padding: 5px;
+			text-align: left;
+		}
+		.footer {
+			width: 600px;
+			margin: 50px auto;
+			padding-top: 25px;
+			border-top: 1px rgb(200,200,200) solid;
+		}
+		.footer p {
+			font-size: 11px;
+			color: rgb(75,75,75);
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<img src="http://placehold.it/520x140?text=Logotipo" alt="">
+	</div>
+	<div class="titulo">
+		<h1>Formulario de contacto para {{empresa}}.</h1>
+	</div>
+	<div class="cuerpo">
+		<p>Alguien ha enviado un formulario de contacto desde el sitio web
+		de {{empresa}}.<br>A continuación los detalles.</p>
+		<table class="detalles">
+			<tr>
+				<th>Nombre:</th>
+				<td>{{nombre}}</td>
+			</tr>
+			<tr>
+				<th>Teléfono:</th>
+				<td>{{telefono}}</td>
+			</tr>
+			<tr>
+				<th>Correo:</th>
+				<td>{{correo}}</td>
+			</tr>
+			<tr>
+				<th>Comentarios:</th>
+				<td>{{comentarios}}</td>
+			</tr>
+			<tr>
+				<th>Fecha:</th>
+				<td>{{fecha}}</td>
+			</tr>
+		</table>
+		<p>Guarde este correo en un lugar seguro para futuras revisiones.</p>
+	</div>
+	<div class="footer">
+		<p>&copy;2017 - <strong>formPHP</strong> - Todos los Derechos Reservados</p>
+		<p><a href="https://github.com/fmagrosoto/formPHP">Clóname en GitHub</a></p>
+	</div>
+</body>
+</html>

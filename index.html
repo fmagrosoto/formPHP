@@ -13,6 +13,7 @@
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +27,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <form>
+                <form id="elForm" action="#" method="POST" autocomplete="off">
                     <legend>Formulario de contacto</legend>
                     <p class="help-block">Script PHP para recibir un formulario de
                         contacto y enviarlo por correo electrónico a un destinatario
@@ -46,7 +47,8 @@
                     <div class="form-group">
                         <label for="comentaros">Comentarios</label>
                         <textarea id="comentarios"
-                        name="comentarios" class="form-control"></textarea>
+                        name="comentarios" 
+                        class="form-control" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">
                     <span class="glyphicon glyphicon-envelope"></span>&nbsp;
@@ -70,5 +72,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
+    <script src="js/validar.js"></script>
   </body>
 </html>

@@ -101,8 +101,8 @@ function enviar(s) {
         
             if (resp !== 'ok') {
                 console.error(resp); // ver el error en la consola
-                msgTxt  = 'Ha ocurrido un error. Intentar más tarde.',
-                msgIcon = 'glyphicon glyphicon-remove',
+                msgTxt  = 'Ha ocurrido un error. Intentar más tarde.';
+                msgIcon = 'glyphicon glyphicon-remove';
                 msgClass = 'alert alert-danger';
             }
         
@@ -111,8 +111,8 @@ function enviar(s) {
         // En caos de que haya ocurrido algún error con la llamada a AJAX...
         .fail(function (error) {
             console.error(error); // ver el error en la consola
-            msgTxt  = 'Ha ocurrido un error interno.',
-            msgIcon = 'glyphicon glyphicon-remove',
+            msgTxt  = 'Ha ocurrido un error interno.';
+            msgIcon = 'glyphicon glyphicon-remove';
             msgClass = 'alert alert-danger';
         })
     

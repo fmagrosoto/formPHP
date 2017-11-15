@@ -50,7 +50,7 @@ como servidor web y que tenga el intérprete de PHP instalado.
 
 Si usas ```method="POST" action="confirmacion.php"``` entonces, el script lo deberás 
 de poner en el archivo **confirmacion.php** o el que quieras (solo recuerda cambiarlo
-en el atributo **method** del formulario).
+en el atributo **action** del formulario).
 
 Al mandarlo por medio del formulario a otra página, recuerda usar el ```method="POST"```
 para que no se muestre en el URL el contenido del formulario.
@@ -74,7 +74,7 @@ al método de envío que seleccionaste.
 ## Git Ignore
 En este repositorio se han contemplado una serie de herramientas, sistemas operativos, 
 editores de código, IDE's, etc., que se han puesto en el archivo .gitignore con el 
-prpósito de mantener lo más limpio este proyecto.  
+propósito de mantener lo más limpio este proyecto.  
 
 Si decides clonar este repositorio para mejorarlo o añadirle funcionalidades y quieres 
 hacer un PR para que nosotros lo integremos, entonces te pido que incluyas en el 
